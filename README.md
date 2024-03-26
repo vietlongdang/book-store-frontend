@@ -16,22 +16,25 @@ Before you begin, ensure you have the following installed on your system:
 To set up the Book Store Frontend locally, follow these steps:
 
 1. Clone the repository to your local machine:
+
 ```bash
 git clone git@github.com:vietlongdang/Give-A-Hand-Front-End.git
 ```
 
-Navigate to the project directory:
+2. Navigate to the project directory:
+
 ```bash
 cd book-store-frontend
 ```
 
-Install the dependencies:
+3. Install the dependencies:
+
 ```bash
 npm install
 ```
 
-Running the Application
-After installing the dependencies, you can start the application by running:
+4. Running the Application
+   After installing the dependencies, you can start the application by running:
 
 ```bash
 npm start
@@ -49,6 +52,7 @@ npm run build
 This command compiles the TypeScript code and builds the static files using Vite.
 
 ## Linting
+
 To lint the application code for potential errors and enforce coding standards, run:
 
 ```bash
@@ -61,7 +65,24 @@ To preview the production build locally, you can use:
 ```bash
 npm run preview
 ```
+
 This serves the built static files on a local server.
 
+## Demo Login Credentials
+
+For evaluation purposes, you can access the Book Store Frontend using the following demo accounts:
+
+- **User Account**
+
+  - Email: `testuser@gmail.com`
+  - Password: `QWEqwe!@#123`
+
+- **Admin Account**
+  - Email: `admin@gmail.com`
+  - Password: `QWEqwe!@#123`
+
+These accounts allow you to experience the application from the perspective of a regular user and an administrator, respectively.
+
 ## Contributing
+
 Contributions to the Book Store Frontend are welcome. Please ensure to follow the coding standards and submit pull requests for review.

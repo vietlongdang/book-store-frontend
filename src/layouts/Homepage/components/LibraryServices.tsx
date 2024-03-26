@@ -12,8 +12,8 @@ export const LibraryServices = () => {
             Can't find what you are looking for?
           </h1>
           <p className="lead">
-            If you cannot find what you are looking for, send our library
-            admins a personal message!
+            If you cannot find what you are looking for, send our library admins
+            a personal message!
           </p>
           <div className="d-grid gap-2 justify-content-md-start mb-4 mb-lg-3">
             {authState?.isAuthenticated ? (

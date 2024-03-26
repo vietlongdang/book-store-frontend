@@ -9,9 +9,6 @@ export const Navbar = () => {
     return <SpinnerLoading />;
   }
 
-  const handleLogout = async () => oktaAuth.signOut();
-  console.log(authState);
-
   return (
     // TODO: Close menu on link click
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary py-3">
@@ -66,7 +63,7 @@ export const Navbar = () => {
               <li>
                 <button
                   className="btn btn-outline-light"
-                  onClick={handleLogout}
+                  onClick={() => oktaAuth.signOut()}
                 >
                   Logout
                 </button>
